@@ -1,8 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&family=Paytone+One&display=swap');
 
-  ul>li{
-   list-style-type: none;
-   
+nav{
+    list-style-type: none;
+    border-top: 1em;
+    border-bottom:1em;
+    
+}
+li{
+    
+        display:inline-block;
+        padding:0.95em;
+        margin:-0.85em
 }
 
- 
+body{
+    font-style:"Source Sans Pro";
+    
+}
+header{
+    font-style:"Abril Fatface";
+    text-align:center ;
+}
+h1{
+    font-style: "Roboto Slab";
+}
+p{
+  padding: 0em;
+  padding-right: 5em;
+  padding-left:0;
+  padding-bottom: 10em;
+  position:relative;
+}
+.more-articles{
+     margin:5em; 
+     display:inline-block;   
+     text-align:center;
+     width:70%;
+     border: top 1px;
+}
+
+body{
+    width:700px;
+    border: radius 100px;
+    box-shadow:5px 5px 5px;
+    padding: 2em 5em;
+    background:lightgray;
+}
+main{
+    font-style: italic;
+}
+footer{
+    border-top:1px red solid;
+}
+
+
+
+    
