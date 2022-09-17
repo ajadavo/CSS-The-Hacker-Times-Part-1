@@ -5,12 +5,14 @@ nav{
     border-top: 1em;
     border-bottom:1em;
     
+    
 }
 li{
     
         display:inline-block;
         padding:0.95em;
         margin:-0.85em
+        
 }
 
 body{
@@ -50,8 +52,34 @@ main{
     font-style: italic;
 }
 footer{
-    border-top:1px red solid;
+       border:2px solid red;
+
 }
+footer:hover{
+    color:goldenrod;
+}
+.two{
+    position:relative;
+    right:170px;
+    padding:4em;
+    text-align:justify;
+}
+.one{
+    position:relative;
+    bottom:590px;
+    left:240px;
+    padding:2em;
+    text-align:justify;
+    
+}
+.one .two{
+    margin:120px;
+}
+
+
+
+    
+
 
 
 
